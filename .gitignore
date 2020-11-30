@@ -1,0 +1,5 @@
+.vs/*
+out/build/x64-Release/*
+CMakeSettings.json
+!out/build/x64-Release/upsampling.exe
+ 
