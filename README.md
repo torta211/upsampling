@@ -19,11 +19,13 @@ upsampling.exe depth_image_to_upscale rgb_guide_img output_folder
 <img src="input/lena_noise.png" width="300"/> 
 
 | | 2 | 4 | 8 | 12 |
-|-|---|---|---|---|
-| 2  | <img src="images_out/lena00.png" width="230"/> |<img src="images_out/lena01.png" width="230"/> | <img src="images_out/lena02.png" width="230"/> | <img src="images_out/lena03.png" width="230"/> | 
-| 4  | <img src="images_out/lena10.png" width="230"/> | <img src="images_out/lena11.png" width="230"/> | <img src="images_out/lena12.png" width="230"/> | <img src="images_out/lena13.png" width="230"/> |
-| 8  | <img src="images_out/lena20.png" width="230"/> | <img src="images_out/lena21.png" width="230"/> | <img src="images_out/lena22.png" width="230"/> | <img src="images_out/lena23.png" width="230"/> |
-| 16 | <img src="images_out/lena30.png" width="230"/> | <img src="images_out/lena31.png" width="230"/> | <img src="images_out/lena32.png" width="230"/> | <img src="images_out/lena33.png" width="230"/> |
+|---|---|---|---|---|
+| 2 | <img src="images_out/lena00.png" width="230"/> |<img src="images_out/lena01.png" width="230"/> | <img src="images_out/lena02.png" width="230"/> | <img src="images_out/lena03.png" width="230"/> | 
+| 4 | <img src="images_out/lena10.png" width="230"/> | <img src="images_out/lena11.png" width="230"/> | <img src="images_out/lena12.png" width="230"/> | <img src="images_out/lena13.png" width="230"/> |
+| 8 | <img src="images_out/lena20.png" width="230"/> | <img src="images_out/lena21.png" width="230"/> | <img src="images_out/lena22.png" width="230"/> | <img src="images_out/lena23.png" width="230"/> |
+| 16| <img src="images_out/lena30.png" width="230"/> | <img src="images_out/lena31.png" width="230"/> | <img src="images_out/lena32.png" width="230"/> | <img src="images_out/lena33.png" width="230"/> |
+
+Horizontally: spatial sigma / Vertically: spectral sigma
 
 
 ## Task 2: Upscale a depth image using iterative joint bilateral filtering
