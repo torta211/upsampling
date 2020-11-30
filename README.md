@@ -41,5 +41,5 @@ Horizontally: spectral sigma / Vertically: spatial sigma
 I think that is a surprisingly nice result, even without using median bilateral filter.
 
 ### TODO:
- - 1D gaussian kernel
- - Color distance measurement in Las
+- Color distance measurement not in RGB
+- performance increments
